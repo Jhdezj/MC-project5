@@ -1,0 +1,28 @@
+
+.logo {
+  width: 28%;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: border-box;
+  float: left;
+  height: 180px;
+  font-size: 75px;
+
+}
+
+.navbar_links {
+  width: 12%;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: border-box;
+  float: left;
+  height: 180px;
+}
+
+.navbar_links span {
+background-color: red;
+}
+
+.logo span {
+background-color: yellow;
+}
