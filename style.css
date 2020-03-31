@@ -2,7 +2,7 @@
 
 nav div {
   border-style: solid;
-  border-width: 2px;
+  border-width: 1px;
   box-sizing: border-box;
   float: left;
   height: 180px;
@@ -26,4 +26,60 @@ nav img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* main */
+main{
+  float: left;
+    width: 100%;
+    height: 1320px;
+    box-sizing: border-box;
+}
+/* Feature articles */
+
+.feature_articles{
+  position: relative;
+
+}
+
+h1 {
+  display: inline;
+  font-size: 2.5em;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+mark {
+  background-color: #ccc;
+}
+
+.feature_articles article {
+  border: solid;
+  box-sizing: border-box;
+  float: left;
+  height: 660px;
+  position: relative;
+  width: 50%;
+}
+
+h2 {
+  font-size: 2.7em;
+}
+
+.feature_articles .description {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.feature_articles img {
+  position:absolute;
+  top:30%;
+  left:25%;
+  transform: rotate(-20deg);
 }
