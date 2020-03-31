@@ -1,28 +1,29 @@
+/* Navigation bar */
 
-.logo {
-  width: 28%;
+nav div {
   border-style: solid;
   border-width: 2px;
   box-sizing: border-box;
   float: left;
   height: 180px;
-  font-size: 75px;
-
-}
-
-.navbar_links {
+  position: relative;
   width: 12%;
+}
+
+nav div:first-child {
   border-style: solid;
   border-width: 2px;
   box-sizing: border-box;
   float: left;
+  font-size: 75px;
   height: 180px;
+  width: 28%;
 }
 
-.navbar_links span {
-background-color: red;
-}
-
-.logo span {
-background-color: yellow;
+nav img {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
