@@ -35,12 +35,6 @@ main{
     height: 1320px;
     box-sizing: border-box;
 }
-/* Feature articles */
-
-.feature_articles{
-  position: relative;
-
-}
 
 h1 {
   display: inline;
@@ -52,6 +46,23 @@ h1 {
   transform: translateX(-50%);
   z-index: 1;
 }
+
+h2 {
+  font-size: 2.7em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+/* Feature articles */
+
+.feature_articles{
+  position: relative;
+
+}
+
+
 
 mark {
   background-color: #ccc;
@@ -66,10 +77,6 @@ mark {
   width: 50%;
 }
 
-h2 {
-  font-size: 2.7em;
-}
-
 .feature_articles .description {
   left: 50%;
   position: absolute;
@@ -78,8 +85,32 @@ h2 {
 }
 
 .feature_articles img {
-  position:absolute;
-  top:30%;
-  left:25%;
+  left: 25%;
+  position: absolute;
+  top: 30%;
   transform: rotate(-20deg);
+}
+
+/* Latest posts */
+
+.latest_posts .description {
+  position: absolute;
+  top: 80px;
+}
+
+.latest_posts article {
+  border: solid;
+  box-sizing: border-box;
+  float: left;
+  height: 600px;
+  padding: 10px;
+  position: relative;
+  width: 33.3%;
+}
+
+.latest_posts p{
+  font-size: 1.5em;
+  position: absolute;
+  top: 40%;
+  line-height: 1.5;
 }
