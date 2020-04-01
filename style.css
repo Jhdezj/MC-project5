@@ -1,3 +1,11 @@
+/* General */
+
+html {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 1300px;
+}
+
 /* Navigation bar */
 
 nav div {
@@ -10,9 +18,13 @@ nav div {
   width: 12%;
 }
 
+nav div:nth-child(n) {
+  border-bottom: none;
+  border-left-style: none;
+}
+
 nav div:first-child {
-  border-style: solid;
-  border-width: 2px;
+  border-left-style: solid;
   box-sizing: border-box;
   float: left;
   font-size: 75px;
@@ -22,9 +34,9 @@ nav div:first-child {
 
 nav img {
   display: inline-block;
+  left: 50%;
   position: absolute;
   top: 50%;
-  left: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -43,6 +55,7 @@ main::after {
 
 h1 {
   display: inline;
+  font-family: 'Fredoka One', cursive;
   font-size: 2.5em;
   left: 50%;
   position: absolute;
@@ -53,10 +66,12 @@ h1 {
 }
 
 h2 {
+  font-family: 'Fredoka One', cursive;
   font-size: 2.7em;
 }
 
 h3 {
+  font-family: 'Fredoka One', cursive;
   font-size: 2em;
 }
 
@@ -71,7 +86,6 @@ mark {
 }
 
 .feature_articles article {
-  border: solid;
   box-sizing: border-box;
   float: left;
   height: 660px;
@@ -79,17 +93,30 @@ mark {
   width: 50%;
 }
 
+.feature_articles article:nth-child(2),
+.feature_articles article:nth-child(3) {
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+
+.feature_articles article:nth-child(2),
+.feature_articles article:nth-child(4) {
+  border-right-style: solid;
+  border-width: 1px;
+}
+
 .feature_articles .description {
   left: 50%;
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
+  width: 390px;
 }
 
 .feature_articles img {
-  left: 25%;
+  left: 20%;
   position: absolute;
-  top: 30%;
+  top: 25%;
   transform: rotate(-20deg);
 }
 
@@ -101,7 +128,6 @@ mark {
 }
 
 .latest_posts article {
-  border: solid;
   box-sizing: border-box;
   float: left;
   height: 600px;
@@ -110,11 +136,34 @@ mark {
   width: 33.3%;
 }
 
-.latest_posts p{
+.latest_posts article:nth-child(3n+1),
+.latest_posts article:nth-child(3n+2) {
+  border-right-style: solid;
+  border-top-style: solid;
+  border-width: 1px;
+}
+
+.latest_posts article:nth-child(3n+3) {
+  border-top-style: solid;
+  border-width: 1px;
+}
+
+.latest_posts article:nth-child(4),
+.latest_posts article:nth-child(9) {
+  padding-left: 6px;
+}
+
+.latest_posts p {
   font-size: 1.5em;
+  line-height: 1.5;
   position: absolute;
   top: 40%;
-  line-height: 1.5;
+}
+
+.latest_posts img {
+  margin-right: 3px;
+  margin-top: 12px;
+  position: absolute;
 }
 
 /* handbook */
@@ -122,6 +171,8 @@ mark {
 .handbook {
   background-color: #ccc;
   border: solid;
+  border-bottom-style: none;
+  border-width: 1px;
   box-sizing: border-box;
   float: left;
   height: 1100px;
@@ -153,7 +204,7 @@ mark {
   top: 30%;
 }
 
-.handbook img{
+.handbook img {
   left: 50%;
   position: absolute;
   top: 40%;
@@ -164,6 +215,8 @@ mark {
 
 .person_of_the_week {
   border: solid;
+  border-bottom-style: none;
+  border-width: 1px;
   box-sizing: border-box;
   float: left;
   height: 350px;
@@ -191,7 +244,8 @@ mark {
 /* Twitter */
 
 .twitter article {
-  border: solid;
+  border: none;
+  border-width: 1px;
   box-sizing: border-box;
   float: left;
   height: 400px;
@@ -199,10 +253,21 @@ mark {
   width: 50%;
 }
 
+.twitter article:nth-child(2n+1) {
+  border-right-style: solid;
+  border-top-style: solid;
+  border-width: 1px;
+}
+
+.twitter article:nth-child(2n+2) {
+  border-top-style: solid;
+  border-width: 1px;
+}
+
 .twitter img {
   float: left;
-  padding-top: 60px;
   padding-left: 60px;
+  padding-top: 60px;
   transform: rotate(-20deg);
 }
 
@@ -215,17 +280,18 @@ mark {
 
 .twitter p {
   float: right;
-  width: 70%;
   font-size: 1.5em;
   line-height: 1.5;
   padding-right: 30px;
   padding-top: 20px;
+  width: 70%;
 }
 
 /* Feature book */
 
 .feature_book {
   border: solid;
+  border-width: 1px;
   box-sizing: border-box;
   float: left;
   height: 600px;
@@ -240,8 +306,8 @@ mark {
 }
 
 .feature_book p {
-  font-size: 1.5em;
   float: left;
+  font-size: 1.5em;
   line-height: 1.5;
   padding-left: 50px;
   padding-top: 20px;
@@ -267,12 +333,25 @@ mark {
 /* Guides */
 
 .guides article {
-  border: solid;
+  border: none;
+  border-width: 1px;
   box-sizing: border-box;
   float: left;
   height: 600px;
   padding-left: 40px;
   width: 33.3%;
+}
+
+.guides article:nth-child(1),
+.guides article:nth-child(2) {
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-width: 1px;
+}
+
+.guides article:nth-child(3) {
+  border-bottom-style: solid;
+  border-width: 1px;
 }
 
 .guides .description {
@@ -290,25 +369,30 @@ mark {
 
 .guides img {
   margin: auto;
-  padding-left: 50px;
+  padding-left: 35px;
 }
 
 .guides .second_column {
+  border-right-style: solid;
+  border-width: 1px;
   height: 804px;
 }
 
 .guides .image_container {
   border: solid;
+  border-width: 1px;
 }
 
 /* Footer */
 
 footer {
   border: solid;
+  border-top-style: none;
+  border-width: 1px;
   float: left;
 }
 
-footer ul li:before {
+footer ul li::before {
   content: "\2022";
 }
 
@@ -320,7 +404,7 @@ footer ul li {
 }
 
 footer ul {
-  text-align: center;
   margin: auto;
+  text-align: center;
   width: 80%;
 }
