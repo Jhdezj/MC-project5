@@ -283,3 +283,16 @@ mark {
   padding-left: 40px;
   padding-top: 30px;
 }
+
+.guides img {
+  margin: auto;
+  padding-left: 50px;
+}
+
+.guides .second_column {
+  height: 804px;
+}
+
+.guides .image_container {
+  border: solid;
+}
