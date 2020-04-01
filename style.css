@@ -217,3 +217,45 @@ mark {
   padding-right: 30px;
   padding-top: 20px;
 }
+
+/* Feature book */
+
+.feature_book {
+  border: solid;
+  box-sizing: border-box;
+  float: left;
+  height: 600px;
+  position: relative;
+  width: 100%;
+}
+
+.feature_book .description {
+  padding-left: 50px;
+  padding-top: 30px;
+  width: 60%;
+}
+
+.feature_book p {
+  font-size: 1.5em;
+  float: left;
+  line-height: 1.5;
+  padding-left: 50px;
+  padding-top: 20px;
+  position: absolute;
+  width: 60%;
+}
+
+.feature_book .wrapper {
+  background: #9a9a9a;
+  height: 400px;
+  margin-top: 194px;
+  position: absolute;
+  width: 100%;
+}
+
+.feature_book img {
+  margin-left: 900px;
+  margin-top: 50px;
+  position: relative;
+  transform: rotate(-15deg);
+}
