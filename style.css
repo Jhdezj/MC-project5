@@ -296,3 +296,20 @@ mark {
 .guides .image_container {
   border: solid;
 }
+
+/* Footer */
+
+footer {
+  border: solid;
+  float: left;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer ul {
+  display: inline-block;
+  text-align: center;
+  width: 80%;
+}
