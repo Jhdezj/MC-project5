@@ -33,8 +33,12 @@ nav img {
 main {
   box-sizing: border-box;
   float: left;
-  height: 1320px;
   width: 100%;
+}
+
+main::after {
+  content: "";
+  display: block;
 }
 
 h1 {
@@ -304,12 +308,19 @@ footer {
   float: left;
 }
 
+footer ul li:before {
+  content: "\2022";
+}
+
 footer ul li {
   display: inline;
+  font-size: 1.5em;
+  line-height: 40px;
+  list-style-type: disc;
 }
 
 footer ul {
-  display: inline-block;
   text-align: center;
+  margin: auto;
   width: 80%;
 }
