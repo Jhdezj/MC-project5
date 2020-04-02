@@ -1,15 +1,13 @@
 # MC-project5
 
 ## Microverse HTML/CSS project 5 - Individual
-Individual Project to create an Apple clone page, using basic HTML and CSS.
+Individual Project to create  the teardown of [smashingmagazine.com](https://www.smashingmagazine.com/), using basic HTML and CSS.
 
 ![screenshot](assets/images/Design_teardown.png)
 
-#### I. The main focus of the project was the teardown of [smashingmagazine.com](https://www.smashingmagazine.com/)
+#### I. The project was not prepared for mobile use and no mobile queries were used.
 
-#### II. The project was not prepared for mobile use and no mobile queries were used.
-
-#### III. The layout is based in a CSS-based layout with floats.
+#### II. The layout is based in a CSS-based layout with floats.
 
 #### III. The main areas of the project can be divided as follows:
 
@@ -32,7 +30,7 @@ Individual Project to create an Apple clone page, using basic HTML and CSS.
 
 ## Live Demo
 
-- [Live Demo Link](https://rawcdn.githack.com/Jhdezj/MC-project5/47963d491645f7dac5331e95b393ec7a93902a35/index.html)
+- [Live Demo Link](https://rawcdn.githack.com/Jhdezj/MC-project5/bba9415b270d7a4919723fdbed8759b04c1cfbbc/index.html)
 
 
 ## Author
