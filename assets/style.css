@@ -94,16 +94,14 @@ mark {
   width: 50%;
 }
 
-.feature_articles article:nth-child(2),
-.feature_articles article:nth-child(3) {
-  border-bottom-style: solid;
+.twitter article {
+  border: none;
   border-width: 1px;
-}
-
-.feature_articles article:nth-child(2),
-.feature_articles article:nth-child(4) {
-  border-right-style: solid;
-  border-width: 1px;
+  box-sizing: border-box;
+  float: left;
+  height: 400px;
+  position: relative;
+  width: 50%;
 }
 
 .feature_articles .description {
@@ -128,6 +126,16 @@ mark {
   top: 80px;
 }
 
+.guides article {
+  border: none;
+  border-width: 1px;
+  box-sizing: border-box;
+  float: left;
+  height: 600px;
+  padding-left: 40px;
+  width: 33.3%;
+}
+
 .latest_posts article {
   box-sizing: border-box;
   float: left;
@@ -135,6 +143,18 @@ mark {
   padding: 10px;
   position: relative;
   width: 33.3%;
+}
+
+.feature_articles article:nth-child(2),
+.feature_articles article:nth-child(3) {
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+
+.feature_articles article:nth-child(2),
+.feature_articles article:nth-child(4) {
+  border-right-style: solid;
+  border-width: 1px;
 }
 
 .latest_posts article:nth-child(3n+1),
@@ -244,16 +264,6 @@ mark {
 
 /* Twitter */
 
-.twitter article {
-  border: none;
-  border-width: 1px;
-  box-sizing: border-box;
-  float: left;
-  height: 400px;
-  position: relative;
-  width: 50%;
-}
-
 .twitter article:nth-child(2n+1) {
   border-right-style: solid;
   border-top-style: solid;
@@ -274,9 +284,9 @@ mark {
 
 .twitter .description {
   float: right;
+  padding-right: 30px;
   padding-top: 80px;
   width: 70%;
-  padding-right: 30px;
 }
 
 .twitter p {
@@ -333,16 +343,6 @@ mark {
 
 /* Guides */
 
-.guides article {
-  border: none;
-  border-width: 1px;
-  box-sizing: border-box;
-  float: left;
-  height: 600px;
-  padding-left: 40px;
-  width: 33.3%;
-}
-
 .guides article:nth-child(1),
 .guides article:nth-child(2) {
   border-bottom-style: solid;
@@ -358,6 +358,12 @@ mark {
 .guides .description {
   padding-top: 50px;
   width: 400px;
+}
+
+footer ul {
+  margin: auto;
+  text-align: center;
+  width: 80%;
 }
 
 .guides ul {
@@ -402,10 +408,4 @@ footer ul li {
   font-size: 1.5em;
   line-height: 40px;
   list-style-type: disc;
-}
-
-footer ul {
-  margin: auto;
-  text-align: center;
-  width: 80%;
 }
