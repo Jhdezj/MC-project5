@@ -1,10 +1,10 @@
 # MC-project5
 
 ## Microverse HTML/CSS project 5
-This project consists of building a simple heatmap based on a [1360x760 ](https://raw.githubusercontent.com/Jhdezj/MC-project5/Design_Teardown/assets/images/1300.png)display of the smashing magazine. (Other screen size widths: 
-[1400 ](https://raw.githubusercontent.com/Jhdezj/MC-project5/Design_Teardown/assets/images/1400.png), [1000 ](https://raw.githubusercontent.com/Jhdezj/MC-project5/Design_Teardown/assets/images/1000.png), and [450 ](https://raw.githubusercontent.com/Jhdezj/MC-project5/Design_Teardown/assets/images/450.png)).
+This project consists of building a simple heatmap based on a [1360x760px ](https://raw.githubusercontent.com/Jhdezj/MC-project5/Design_Teardown/assets/images/1300.png)display of the smashing magazine. (Other screen size widths:
+[1900px ](https://raw.githubusercontent.com/Jhdezj/MC-project5/Design_Teardown/assets/images/1900.png), [1000px ](https://raw.githubusercontent.com/Jhdezj/MC-project5/Design_Teardown/assets/images/1000.png), and [450px ](https://raw.githubusercontent.com/Jhdezj/MC-project5/Design_Teardown/assets/images/450.png)).
 
- You can see the corresponding display on your machine on [Smashing magazine.com](https://www.smashingmagazine.com/).
+ You can see your corresponding machine's display  on [Smashing magazine.com](https://www.smashingmagazine.com/).
 
 ![screenshot](assets/images/Design_teardown1.png)
 
