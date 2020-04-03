@@ -6,6 +6,37 @@ html {
   width: 1300px;
 }
 
+/* Grayscale */
+
+.gray_five {
+  background: #b2b2b2;
+}
+
+.gray_four {
+  background: #c0c0c0;
+}
+
+.gray_three {
+  background: #ccc;
+}
+
+.gray_two {
+  background: #d3d3d3;
+}
+
+.gray_one {
+  background: #dcdcdc;
+}
+
+.gray_zero {
+  background: #e5e5e5;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+
 /* Navigation bar */
 
 nav div {
@@ -36,10 +67,46 @@ nav img {
   display: inline-block;
   left: 50%;
   position: absolute;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+nav div:first-child img {
+  display: inline-block;
+  left: 30%;
+  position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
+nav span {
+  display: inline-block;
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.5em;
+  left: 50%;
+  position: absolute;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+
+nav div:first-child span {
+  display: inline-block;
+  font-family: 'Fredoka One', cursive;
+  font-size: 0.5em;
+  left: 52%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav div:last-child span {
+  display: inline-block;
+  font-family: 'Fredoka One', cursive;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 /* main */
 
 main {
@@ -145,14 +212,22 @@ mark {
   width: 33.3%;
 }
 
+.feature_articles article:nth-child(3),
+.feature_articles article:nth-child(5) {
+  border-right-style: solid;
+  border-width: 1px;
+}
+
 .feature_articles article:nth-child(2),
 .feature_articles article:nth-child(3) {
   border-bottom-style: solid;
+  border-top-style: solid;
   border-width: 1px;
 }
 
 .feature_articles article:nth-child(2),
 .feature_articles article:nth-child(4) {
+  border-left-style: solid;
   border-right-style: solid;
   border-width: 1px;
 }
@@ -168,6 +243,11 @@ mark {
   border-top-style: solid;
   border-width: 1px;
 }
+  .latest_posts article:nth-child(3n+1) {
+    border-left-style: solid;
+    border-width: 1px;
+  }
+
 
 .latest_posts article:nth-child(4),
 .latest_posts article:nth-child(9) {
@@ -265,6 +345,7 @@ mark {
 /* Twitter */
 
 .twitter article:nth-child(2n+1) {
+  border-left-style: solid;
   border-right-style: solid;
   border-top-style: solid;
   border-width: 1px;
