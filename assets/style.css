@@ -1,13 +1,12 @@
 /* General */
 
 html {
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   width: 1300px;
 }
 
 /* Grayscale */
-
 .gray_five {
   background: #b2b2b2;
 }
@@ -35,7 +34,6 @@ html {
 .clearfix {
   overflow: auto;
 }
-
 
 /* Navigation bar */
 
@@ -69,6 +67,63 @@ nav img {
   position: absolute;
   top: 40%;
   transform: translate(-50%, -50%);
+}
+
+.feature_articles img {
+  left: 20%;
+  position: absolute;
+  top: 25%;
+  transform: rotate(-20deg);
+}
+
+.latest_posts img {
+  margin-right: 3px;
+  margin-top: 12px;
+  position: absolute;
+}
+
+.handbook img {
+  left: 50%;
+  position: absolute;
+  top: 40%;
+  transform: translateX(-50%);
+}
+
+.person_of_the_week img {
+  float: left;
+  padding-left: 60px;
+  padding-top: 80px;
+  transform: rotate(-20deg);
+}
+
+.twitter img {
+  float: left;
+  padding-left: 60px;
+  padding-top: 60px;
+  transform: rotate(-20deg);
+}
+
+.feature_book img {
+  margin-left: 900px;
+  margin-top: 50px;
+  position: relative;
+  transform: rotate(-15deg);
+}
+
+.guides img {
+  margin: auto;
+  padding-left: 35px;
+}
+
+.bird img {
+  float: right;
+  width: 150px;
+}
+
+.cat img {
+  float: left;
+  margin-top: 40px;
+  width: 200px;
 }
 
 nav div:first-child img {
@@ -107,6 +162,7 @@ nav div:last-child span {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
 /* main */
 
 main {
@@ -179,13 +235,6 @@ mark {
   width: 390px;
 }
 
-.feature_articles img {
-  left: 20%;
-  position: absolute;
-  top: 25%;
-  transform: rotate(-20deg);
-}
-
 /* Latest posts */
 
 .latest_posts .description {
@@ -243,15 +292,19 @@ mark {
   border-top-style: solid;
   border-width: 1px;
 }
-  .latest_posts article:nth-child(3n+1) {
-    border-left-style: solid;
-    border-width: 1px;
-  }
 
+.latest_posts article:nth-child(3n+1) {
+  border-left-style: solid;
+  border-width: 1px;
+}
 
 .latest_posts article:nth-child(4),
 .latest_posts article:nth-child(9) {
   padding-left: 6px;
+}
+
+footer p {
+  text-align: center;
 }
 
 .latest_posts p {
@@ -259,12 +312,6 @@ mark {
   line-height: 1.5;
   position: absolute;
   top: 40%;
-}
-
-.latest_posts img {
-  margin-right: 3px;
-  margin-top: 12px;
-  position: absolute;
 }
 
 /* handbook */
@@ -305,13 +352,6 @@ mark {
   top: 30%;
 }
 
-.handbook img {
-  left: 50%;
-  position: absolute;
-  top: 40%;
-  transform: translateX(-50%);
-}
-
 /* Person of the Week */
 
 .person_of_the_week {
@@ -335,13 +375,6 @@ mark {
   width: 900px;
 }
 
-.person_of_the_week img {
-  float: left;
-  padding-left: 60px;
-  padding-top: 80px;
-  transform: rotate(-20deg);
-}
-
 /* Twitter */
 
 .twitter article:nth-child(2n+1) {
@@ -354,13 +387,6 @@ mark {
 .twitter article:nth-child(2n+2) {
   border-top-style: solid;
   border-width: 1px;
-}
-
-.twitter img {
-  float: left;
-  padding-left: 60px;
-  padding-top: 60px;
-  transform: rotate(-20deg);
 }
 
 .twitter .description {
@@ -415,13 +441,6 @@ mark {
   width: 100%;
 }
 
-.feature_book img {
-  margin-left: 900px;
-  margin-top: 50px;
-  position: relative;
-  transform: rotate(-15deg);
-}
-
 /* Guides */
 
 .guides article:nth-child(1),
@@ -455,11 +474,6 @@ footer ul {
   padding-top: 30px;
 }
 
-.guides img {
-  margin: auto;
-  padding-left: 35px;
-}
-
 .guides .second_column {
   border-right-style: solid;
   border-width: 1px;
@@ -478,9 +492,10 @@ footer {
   border-top-style: none;
   border-width: 1px;
   float: left;
+  padding-bottom: 50px;
 }
 
-footer ul li::before {
+footer .topics li::before {
   content: "\2022";
 }
 
@@ -489,4 +504,39 @@ footer ul li {
   font-size: 1.5em;
   line-height: 40px;
   list-style-type: disc;
+}
+
+.footer_description {
+  font-size: 0.9em;
+  margin-top: 50px;
+}
+
+.bird {
+  box-sizing: border-box;
+  float: left;
+  width: 33.3%;
+}
+
+.us {
+  box-sizing: border-box;
+  float: left;
+  font-size: 0.6em;
+  list-style: none;
+  width: 33.3%;
+}
+
+.us li {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: underline;
+}
+
+.pencil {
+  text-decoration: none !important;
+}
+
+.cat {
+  box-sizing: border-box;
+  float: left;
+  width: 33.3%;
 }
