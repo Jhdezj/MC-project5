@@ -3,7 +3,7 @@
 ## Microverse HTML/CSS project 5
 This project consists of building a simple heatmap from [Smashing magazine.com](https://www.smashingmagazine.com/).
 
-![screenshot](assets/images/design_teardown.png)
+![screenshot](assets/images/Design_teardown1.png)
 
 #### I. The project was based on a 1360x760 display of the original site. It was not prepared to be responsive and no queries were used.
 
