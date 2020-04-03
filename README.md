@@ -1,11 +1,11 @@
 # MC-project5
 
-## Microverse HTML/CSS project 5 - Individual
-Individual Project to create  the teardown of [smashingmagazine.com](https://www.smashingmagazine.com/), using basic HTML and CSS.
+## Microverse HTML/CSS project 5
+This project consists of building a simple heatmap from [Smashing magazine.com](https://www.smashingmagazine.com/).
 
-![screenshot](assets/images/Design_teardown.png)
+![screenshot](assets/images/design_teardown.png)
 
-#### I. The project was not prepared for mobile use and no mobile queries were used.
+#### I. The project was based on a 1360x760 display of the original site. It was not prepared to be responsive and no queries were used.
 
 #### II. The layout is based in a CSS-based layout with floats.
 
@@ -18,7 +18,7 @@ Individual Project to create  the teardown of [smashingmagazine.com](https://www
   The relevant pictures from the original site have been represented by placeholders of similar size.
 
   ###### &nbsp; The feature sections
-  The regular sections have been colored white while the main sections were colored gray.
+  The heatmap has been created by coloring the sections in a grayscale, according to how they capture reader's attention.
 
   ###### &nbsp; The text
   The main text has been represented both by similar size and font. To detach meaning the dummy text has been taken from fragments of text in Latin.
@@ -30,7 +30,7 @@ Individual Project to create  the teardown of [smashingmagazine.com](https://www
 
 ## Live Demo
 
-- [Live Demo Link](https://rawcdn.githack.com/Jhdezj/MC-project5/bba9415b270d7a4919723fdbed8759b04c1cfbbc/index.html)
+- [Live Demo Link](https://rawcdn.githack.com/Jhdezj/MC-project5/610719f998cf6522d8530515b95fdf17bbf759ad/index.html)
 
 
 ## Author
