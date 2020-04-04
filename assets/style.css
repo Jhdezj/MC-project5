@@ -1,0 +1,542 @@
+/* General */
+
+html {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+}
+
+/* Grayscale */
+.gray_five {
+  background: #b2b2b2;
+}
+
+.gray_four {
+  background: #c0c0c0;
+}
+
+.gray_three {
+  background: #ccc;
+}
+
+.gray_two {
+  background: #d3d3d3;
+}
+
+.gray_one {
+  background: #dcdcdc;
+}
+
+.gray_zero {
+  background: #e5e5e5;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+/* Navigation bar */
+
+nav div {
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  float: left;
+  height: 180px;
+  position: relative;
+  width: 12%;
+}
+
+nav div:nth-child(n) {
+  border-bottom: none;
+  border-left-style: none;
+}
+
+nav div:first-child {
+  border-left-style: solid;
+  box-sizing: border-box;
+  float: left;
+  font-size: 75px;
+  height: 180px;
+  width: 28%;
+}
+
+nav img {
+  display: inline-block;
+  left: 50%;
+  position: absolute;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.feature_articles img {
+  left: 20%;
+  position: absolute;
+  top: 25%;
+  transform: rotate(-20deg);
+}
+
+.latest_posts img {
+  margin-right: 3px;
+  margin-top: 12px;
+  position: absolute;
+}
+
+.handbook img {
+  left: 50%;
+  position: absolute;
+  top: 40%;
+  transform: translateX(-50%);
+}
+
+.person_of_the_week img {
+  float: left;
+  padding-left: 60px;
+  padding-top: 80px;
+  transform: rotate(-20deg);
+}
+
+.twitter img {
+  float: left;
+  padding-left: 60px;
+  padding-top: 60px;
+  transform: rotate(-20deg);
+}
+
+.feature_book img {
+  margin-left: 900px;
+  margin-top: 50px;
+  position: relative;
+  transform: rotate(-15deg);
+}
+
+.guides img {
+  margin: auto;
+  padding-left: 35px;
+}
+
+.bird img {
+  float: right;
+  width: 150px;
+}
+
+.cat img {
+  float: left;
+  margin-top: 40px;
+  width: 200px;
+}
+
+nav div:first-child img {
+  display: inline-block;
+  left: 30%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav span {
+  display: inline-block;
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.5em;
+  left: 50%;
+  position: absolute;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+
+nav div:first-child span {
+  display: inline-block;
+  font-family: 'Fredoka One', cursive;
+  font-size: 0.5em;
+  left: 52%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav div:last-child span {
+  display: inline-block;
+  font-family: 'Fredoka One', cursive;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* main */
+
+main {
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+}
+
+main::after {
+  content: "";
+  display: block;
+}
+
+h1 {
+  display: inline;
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.5em;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+h2 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.7em;
+}
+
+h3 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2em;
+}
+
+/* Feature articles */
+
+.feature_articles {
+  position: relative;
+}
+
+mark {
+  background-color: #ccc;
+  line-height: 1.2;
+}
+
+.feature_articles article {
+  box-sizing: border-box;
+  float: left;
+  height: 660px;
+  position: relative;
+  width: 50%;
+}
+
+.twitter article {
+  border: none;
+  border-width: 1px;
+  box-sizing: border-box;
+  float: left;
+  height: 400px;
+  position: relative;
+  width: 50%;
+}
+
+.feature_articles .description {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 390px;
+}
+
+/* Latest posts */
+
+.latest_posts .description {
+  position: absolute;
+  top: 80px;
+}
+
+.guides article {
+  border: none;
+  border-width: 1px;
+  box-sizing: border-box;
+  float: left;
+  height: 600px;
+  padding-left: 40px;
+  width: 33.3%;
+}
+
+.latest_posts article {
+  box-sizing: border-box;
+  float: left;
+  height: 600px;
+  padding: 10px;
+  position: relative;
+  width: 33.3%;
+}
+
+.feature_articles article:nth-child(3),
+.feature_articles article:nth-child(5) {
+  border-right-style: solid;
+  border-width: 1px;
+}
+
+.feature_articles article:nth-child(2),
+.feature_articles article:nth-child(3) {
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-width: 1px;
+}
+
+.feature_articles article:nth-child(2),
+.feature_articles article:nth-child(4) {
+  border-left-style: solid;
+  border-right-style: solid;
+  border-width: 1px;
+}
+
+.latest_posts article:nth-child(3n+1),
+.latest_posts article:nth-child(3n+2) {
+  border-right-style: solid;
+  border-top-style: solid;
+  border-width: 1px;
+}
+
+.latest_posts article:nth-child(3n+3) {
+  border-top-style: solid;
+  border-width: 1px;
+}
+
+.latest_posts article:nth-child(3n+1) {
+  border-left-style: solid;
+  border-width: 1px;
+}
+
+.latest_posts article:nth-child(4),
+.latest_posts article:nth-child(9) {
+  padding-left: 6px;
+}
+
+footer p {
+  text-align: center;
+}
+
+.latest_posts p {
+  font-size: 1.5em;
+  line-height: 1.5;
+  position: absolute;
+  top: 40%;
+}
+
+/* handbook */
+
+.handbook {
+  background-color: #ccc;
+  border: solid;
+  border-bottom-style: none;
+  border-width: 1px;
+  box-sizing: border-box;
+  float: left;
+  height: 1100px;
+  position: relative;
+  width: 100%;
+}
+
+.handbook .description {
+  display: inline;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.handbook .title {
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+.handbook p {
+  display: inline;
+  font-size: 1.5em;
+  line-height: 1.5;
+  padding: 0 270px;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+}
+
+/* Person of the Week */
+
+.person_of_the_week {
+  border: solid;
+  border-bottom-style: none;
+  border-width: 1px;
+  box-sizing: border-box;
+  float: left;
+  height: 350px;
+  position: relative;
+  width: 100%;
+}
+
+.person_of_the_week p {
+  box-sizing: border-box;
+  float: right;
+  font-size: 1.5em;
+  line-height: 1.5;
+  padding-right: 30px;
+  padding-top: 80px;
+  width: 900px;
+}
+
+/* Twitter */
+
+.twitter article:nth-child(2n+1) {
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-width: 1px;
+}
+
+.twitter article:nth-child(2n+2) {
+  border-top-style: solid;
+  border-width: 1px;
+}
+
+.twitter .description {
+  float: right;
+  padding-right: 30px;
+  padding-top: 80px;
+  width: 70%;
+}
+
+.twitter p {
+  float: right;
+  font-size: 1.5em;
+  line-height: 1.5;
+  padding-right: 30px;
+  padding-top: 20px;
+  width: 70%;
+}
+
+/* Feature book */
+
+.feature_book {
+  border: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  float: left;
+  height: 600px;
+  position: relative;
+  width: 100%;
+}
+
+.feature_book .description {
+  padding-left: 50px;
+  padding-top: 30px;
+  width: 60%;
+}
+
+.feature_book p {
+  float: left;
+  font-size: 1.5em;
+  line-height: 1.5;
+  padding-left: 50px;
+  padding-top: 20px;
+  position: absolute;
+  width: 60%;
+}
+
+.feature_book .wrapper {
+  background: #9a9a9a;
+  height: 400px;
+  margin-top: 194px;
+  position: absolute;
+  width: 100%;
+}
+
+/* Guides */
+
+.guides article:nth-child(1),
+.guides article:nth-child(2) {
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-width: 1px;
+}
+
+.guides article:nth-child(3) {
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+
+.guides .description {
+  padding-top: 50px;
+  width: 400px;
+}
+
+footer ul {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+.guides ul {
+  font-size: 1.5em;
+  line-height: 40px;
+  list-style-type: disc;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.guides .second_column {
+  border-right-style: solid;
+  border-width: 1px;
+  height: 804px;
+}
+
+.guides .image_container {
+  border: solid;
+  border-width: 1px;
+}
+
+/* Footer */
+
+footer {
+  border: solid;
+  border-top-style: none;
+  border-width: 1px;
+  float: left;
+  padding-bottom: 50px;
+}
+
+footer .topics li::before {
+  content: "\2022";
+}
+
+footer ul li {
+  display: inline;
+  font-size: 1.5em;
+  line-height: 40px;
+  list-style-type: disc;
+}
+
+.footer_description {
+  font-size: 0.9em;
+  margin-top: 50px;
+}
+
+.bird {
+  box-sizing: border-box;
+  float: left;
+  width: 33.3%;
+}
+
+.us {
+  box-sizing: border-box;
+  float: left;
+  font-size: 0.6em;
+  list-style: none;
+  width: 33.3%;
+}
+
+.us li {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: underline;
+}
+
+.pencil {
+  text-decoration: none !important;
+}
+
+.cat {
+  box-sizing: border-box;
+  float: left;
+  width: 33.3%;
+}
